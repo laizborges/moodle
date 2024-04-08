@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+
+@font-face {
+    font-family: cocogoose ;
+    src: url(cocogoose/Cocogoose-Pro-Light-trial.ttf);
+}
+
+
+h2 {
+    text-align: center;
+    font-family:cocogoose;
+
+}
+.cards {
+    margin-top: 50px;
+  
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+  
+}
+
+.card1 {
+  background-color: #EDAB6F;
+  padding-top: 20px;
+  text-align: justify;
+  border-radius: 10%;
+  padding: 10px;
+  margin: 15px;
+  margin-top: 20px;
+
+}
+
+.card1 img {
+    margin-left: 30%;
+}
+
+.card2 {
+    background-color: #EDAB6F;
+    padding: 10px;
+    margin: 15px;
+    margin-top: 20px;
+    border-radius: 10%;
+    
+  }
+
+  .card2 img {
+    margin-left: 15%;
+  }
+
+  .card3 {
+    background-color: #EDAB6F;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 15px;
+    
+  
+  }
+.card3 img {
+    margin-left: 25%;
+}
+
+
+
+  .p3 p {
+    margin-right: 10%;
+  }
+
+
+  @keyframes icon {
+    0% {
+        transform: scale(1);
+
+    }
+
+    50% {
+        transform: scale(1.5);
+
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.icon img {
+    width: 3%;
+    height: 3%;
+    margin-left: 3%;
+    margin-top: 1%;
+    animation: icon 2s infinite;
+
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: #eda86f;
+    padding: 2%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4%;
+    font-family: cocogoose;
+}
+
+.p1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    margin-left: 75%;
+    gap: 15%;
+    height: 25%;
+    width: 25%;
+    width: 15%;
+    height: 15%;
+
+}
+
+footer p {
+    margin-top: -5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.botao a {
+    background-color: rgb(252, 252, 252);
+    border-radius: 5%;
+    padding: 17%;
+  font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25%;
+    text-decoration: none;
+    color: #f37916;
+}
+
+nav {
+    margin-top: -15%;
+
+
+}
+
+
+@media (max-width: 400px)  {
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
